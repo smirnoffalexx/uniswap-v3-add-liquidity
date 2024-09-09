@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# UniswapV3 add liquidity example
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project contains smart contract for providing liquidity to UniswapV3Pool by pool specified pool address, asset amounts and position width.
 
-Try running some of the following tasks:
+Before running tests provide your ETHEREUM_RPC_URL to the .env as shown in the example.env
+
+Useful commands:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+yarn hardhat compile
+yarn hardhat test
 ```
