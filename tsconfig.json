@@ -1,11 +1,22 @@
 {
   "compilerOptions": {
-    "target": "es2020",
+   "target": "es2020",
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
     "resolveJsonModule": true
-  }
+  },
+  "include": [
+    "./scripts",
+    "./test",
+    "./typechain-types",
+    "./deploy",
+    "./gotbit-tools",
+    "env.d.ts",
+    "hardhat.config.ts",
+    "evm.ts"
+  ],
+  "files": ["./hardhat.config.ts"]
 }

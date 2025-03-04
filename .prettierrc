@@ -1,0 +1,21 @@
+{
+  "semi": false,
+  "printWidth": 90,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": "*.sol",
+      "options": {
+        "printWidth": 90,
+        "tabWidth": 4
+      }
+    },
+    {
+      "files": "*.ts",
+      "options": {
+        "printWidth": 90,
+        "tabWidth": 2
+      }
+    }
+  ]
+}
